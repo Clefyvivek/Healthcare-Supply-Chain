@@ -33,8 +33,8 @@ Personnel costs dominate operating expenses, while surgical masks and ventilator
 
 ### Data & Modeling</br>
 - Dataset: hospital_supply_chain (2003 rows) covering financial data, stocking data, patient diagnosis, equipment usage, etc.
-- Tools: MySQL aggregations (SUM, COUNT ), ALTER TABLE (ADD), Data Manipulation Language (UPDATE), Wildcards (LIKE,%,''), Numeric funtion (ROUND), String function (REPLACE), CASE expression, etc.
-- Approach: Cleaned data from unrelated column (Item ID, Patient ID, Room type, etc.), grouped by Item name/primary diagnosis/equipment used, etc.; calculated sums, rannkings, and changes.
+- Tools: MySQL aggregations (SUM, COUNT ), ALTER TABLE (ADD), Data Manipulation Language (UPDATE), Wildcards (LIKE,%,''), Numeric function (ROUND), String function (REPLACE), CASE expression, NULL values, etc.
+- Approach: Cleaned data from unrelated columns (Item ID, Patient ID, Room type, etc.), grouped by Item name/primary diagnosis/equipment used, etc.; calculated sums, rankings, and changes.
 
 ### Sample SQL Highlights: -- Fixing error where Primary_Diagnosis and Equipment_Used are mismatched
                                       UPDATE
@@ -51,7 +51,7 @@ Personnel costs dominate operating expenses, while surgical masks and ventilator
 
 ### Recommendations:
 - Hospital Administrators / CFOs:
-  - Optimize personnel expenses (largest operating cost at $4.37M) by balancing staffing efficiency with patient care quality. Consider opting for out-sourcing surgeons in certain non-emergency cases to reduce long term staffing expenses.
+  - Optimize personnel expenses (the highest operating cost at $4.37M) by balancing staffing efficiency with patient care quality. Consider opting for outsourcing surgeons in certain non-emergency cases to reduce long-term staffing expenses.
   - Invest in predictive inventory management to reduce overstocking (187 days) and understocking (43 days), improving cost control and patient safety.
 
 - Procurement & Supply Chain Managers:
@@ -67,8 +67,8 @@ Personnel costs dominate operating expenses, while surgical masks and ventilator
    - Provide incentives for hospitals that demonstrate balanced inventory practices and reduced dependency on single vendors.
 
 ### Limitations & Next Steps:
-- Data limited for October 2024 for vendor data; longer supply data needed.
-- No data for number of cases in a single day for particular disease diagnosed.
+- Data is limited for October 2024 for vendor data; longer supply data is needed.
+- No data for the number of cases in a single day for a particular disease diagnosed.
 - Future: Integrate Python/Power BI for interactive dashboards or ML predictions.  
 
 ### How to Run:
@@ -76,7 +76,7 @@ Personnel costs dominate operating expenses, while surgical masks and ventilator
 -
 -
 
-About Me Data Analyst passionate about sustainable finance. Connect on LinkedIn | View more projects [here]. Thanks for visiting!
+About Me: Data Analyst, passionate about sustainable finance. Connect on LinkedIn | View more projects [here]. Thanks for visiting!
 
 
 
