@@ -18,18 +18,19 @@ Personnel costs dominate operating expenses, while surgical masks and ventilator
 
 
 ### Key Insights:
-| Category | Item / Metric | Value / Count | Notes / Context |
-| -------- | ------------- | ------------- | --------------- |
-| **Operating Expenditure** | Personnel expenses | $4.37M | Largest operating cost (staffing & surgeons’ salaries) | 
-| **Capital Expenditure** | Surgical masks | $4.26M | Highest-value capital item by aggregate expenditure |
-| **Capital Expenditure** | Ventilators | $3.71M | Second-highest by aggregate expenditure; longest restocking lead time (30 days) |
-| **Capital Expenditure** | IV Drips | 27,534 units / $1.11M | Most used capital item by total units |
-| **Vendor Performance** | MedSupplies Inc. (Vendor V001) | 45,779 items delivered $1.90 million total cost | Leading supplier by volume and cost | 
-| **Inventory Management** | Overstocking | 187 days | Indicates excess supply | 
-| **Inventory Management** | Understocking | 43 days | Indicates shortages |
-| **Capital Expenditures** | X-ray machines (from MedSupplies Inc., V001) | $457,114 | Highest capital expenditure across vendors | 
-| **Clinical Insights** | Pneumonia diagnoses | 138 out of 500 cases | Leading diagnosis (27.6% of cases) | 
-| **Equipment Utilization** | Surgical table | 231 usage count | Most utilized equipment |
+| Category | Item / Metric | Value / Count | Notes / Context | Query Results | 
+| -------- | ------------- | ------------- | --------------- | ------------- |
+| **Operating Expenditure** | Personnel expenses | $4.37M | Largest operating cost (staffing & surgeons’ salaries) | <img width="468" height="281" alt="image" src="https://github.com/user-attachments/assets/b3bc5194-741b-4202-9f28-e3c47446dbab" /> |
+| **Capital Expenditure** | Surgical masks | $4.26M | Highest-value capital item by aggregate expenditure | <img width="468" height="281" alt="image" src="https://github.com/user-attachments/assets/7cc87ecd-9994-4dff-982b-b91f2439203d" /> |
+| **Capital Expenditure** | Ventilators | $3.71M | Second-highest by aggregate expenditure; longest restocking lead time (30 days) | <img width="468" height="281" alt="image" src="https://github.com/user-attachments/assets/d7c2c219-03bf-484a-8165-df2620c8f768" /> |
+| **Capital Expenditure** | IV Drips | 27,534 units / $1.11M | Most used capital item by total units | <img width="567" height="339" alt="image" src="https://github.com/user-attachments/assets/3d451ea9-4bc8-4fc0-b966-af25cfcbbf81" /> |
+| **Vendor Performance** | MedSupplies Inc. (Vendor V001) | 45,779 items delivered $1.90 million total cost | Leading supplier by volume and cost | <img width="604" height="336" alt="image" src="https://github.com/user-attachments/assets/4235c1e3-eed1-43c8-9e4b-e56e003ecddc" /> |
+| **Inventory Management** | Overstocking | 187 days | Indicates excess supply | <img width="556" height="299" alt="image" src="https://github.com/user-attachments/assets/a595f71f-f7e2-43d5-b739-eb1d6dde4925" /> |
+| **Inventory Management** | Understocking | 43 days | Indicates shortages | <img width="559" height="295" alt="image" src="https://github.com/user-attachments/assets/bc2e31c1-1a24-4a32-a89c-3301bac47c0a" /> |
+| **Capital Expenditures** | X-ray machines (from MedSupplies Inc., V001) | $457,114 | Highest capital expenditure across vendors | <img width="583" height="346" alt="image" src="https://github.com/user-attachments/assets/63ca1229-0d55-4b2f-beb5-6d6ff51f7306" /> |
+| **Clinical Insights** | Fracture diagnoses | 133 out of 500 cases | Leading diagnosis (26.6% of cases) | <img width="654" height="332" alt="image" src="https://github.com/user-attachments/assets/2635f289-3908-48d3-a3b7-ef1eddc56b90" /> |
+| **Equipment Utilization** | X-ray machine | 173 usage count | Most utilized equipment | <img width="589" height="401" alt="image" src="https://github.com/user-attachments/assets/35d081ad-8eba-418b-a688-cc2993d3f3f3" /> |
+
 
 ### Data & Modeling</br>
 - Dataset: hospital_supply_chain (2003 rows) covering financial data, stocking data, patient diagnosis, equipment usage, etc.
@@ -72,11 +73,14 @@ Personnel costs dominate operating expenses, while surgical masks and ventilator
 - Future: Integrate Python/Power BI for interactive dashboards or ML predictions.  
 
 ### How to Run:
--
--
--
+- Clone the repository
+- Import the database
+- Explore the data
+- That's it! You should now have a fully populated database ready for querying and further exploration. Feel free to modify the queries or extend the analysis. Contributions and suggestions are welcome!
 
-About Me: Data Analyst, passionate about sustainable finance. Connect on LinkedIn | View more projects [here]. Thanks for visiting!
+### About Me:
+
+Data Analyst, passionate about sustainable finance. Connect on [LinkedIn](https://www.linkedin.com/in/vivek-sharma-b74950241/)  | View more projects [here](https://github.com/Clefyvivek) Thanks for visiting!
 
 
 
